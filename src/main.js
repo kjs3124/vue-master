@@ -1,23 +1,22 @@
 import Vue from 'vue'
-import {App, Board, MainPage} from './'
-
 import VueRouter from 'vue-router'
+import {App, Board, MainPage, SignUp} from './'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter);
 
 const routes = [
   {
-      path: '/'
-      , component: App
-  }
-  , {
     path: '/Board'
     , component: Board
   }
   , {
     path: '/MainPage'
     , component: MainPage
+  }
+  , {
+    path: '/SignUp'
+    , component: SignUp
   }
 ];
 

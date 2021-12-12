@@ -2,7 +2,6 @@
   <div id="MainPage">
     <img alt="Vue logo" src="./assets/logo.png" onclick="alert('Hello Vue!');">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <button type="button"><router-link tag="a" :to="'/Board'">게시판</router-link></button>
     <!--<button type="button"><router-link tag="a" :to="'/Board'">게시판</router-link></button>-->
 
   </div>
